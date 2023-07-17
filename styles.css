@@ -99,6 +99,37 @@ main{
     color: #ff900e;
     font-weight: 700px;
 }
+/* features section started here */
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+    
+}
+.features .teams-title{
+    border-left: 5px solid #ff900e;
+    padding-left: 20px;
+}
+.features-content .card{
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 5px 4px 30px 5px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.ten-years-badge{
+    border-radius: 8px;
+    background: #ff900e;
+    color: #fff;
+    width: 342px;
+    padding: 40px;
+}
+.ten-years-badge h2{
+    font-size: 4rem;
+}
+
+
+
 /* facts section started here */
 .facts-card-container{
     display: flex;
