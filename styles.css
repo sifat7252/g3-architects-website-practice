@@ -39,7 +39,7 @@ nav li a{
 /* main styles */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 90px auto;
 }
 /* banner section started here */
 .banner-content{
@@ -72,17 +72,7 @@ main{
     width: 100%;
     margin-top: 20px;
 }
-/* responsive media query   */
-/* media query for mobile or small device */
-@media screen and (max-width: 576px) {
-    header{
-        padding: 20px;
-        
-        }
-        nav{
-            flex-direction: column;
-        }
-    }
+
     /* teams features section started here */
 .teams-container{
     display: flex;
@@ -109,6 +99,45 @@ main{
     color: #ff900e;
     font-weight: 700px;
 }
+
+
+
+
+
+
+/* responsive media query   */
+/* media query for mobile or small device */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+        
+        }
+        nav,
+        .teams-container
+        {
+            flex-direction: column;
+        }
+        .teams-img{
+            grid-template-columns: 1fr;
+        }
+        .teams-content{
+            padding-right: 20px;
+            padding-left: 20px;
+    }
+}
+    /* tablet or medium devices */
+    @media screen and (min-width:576px) and (max-width:960px) {
+        header{
+            padding: 50px;
+        }
+        nav,
+        .teams-container
+        {
+            flex-direction: column;
+        }
+
+    }
+ 
 
 
 
