@@ -3,6 +3,7 @@
 *{
     font-family: 'Open Sans', sans-serif; 
 }
+/* navigation section started here */
 .nav{
     display: flex;
     justify-content: center;
@@ -35,6 +36,12 @@ nav li a{
     text-decoration: none;
     color: #424242;
 }
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* banner section started here */
 .banner-content{
     max-width: 800px;
     text-align: center;
@@ -56,12 +63,17 @@ nav li a{
     font-size: 1.25rem;
     cursor: pointer;
     border: 0;
+    
+}
+.btn-primary:hover{
+    color: blue;
 }
 .banner-img{
     width: 100%;
     margin-top: 20px;
 }
 /* responsive media query   */
+/* media query for mobile or small device */
 @media screen and (max-width: 576px) {
     header{
         padding: 20px;
@@ -71,8 +83,34 @@ nav li a{
             flex-direction: column;
         }
     }
-} {
-    
-} {
-    
+    /* teams features section started here */
+.teams-container{
+    display: flex;
+    align-items: center;
 }
+.teams-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.teams-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+.teams-title .quick-list{
+    color: #727272;
+    font-weight: 500;
+
+}
+.teams-title .text-feature{
+    color: #ff900e;
+    font-weight: 700px;
+}
+
+
+
+        
+    
