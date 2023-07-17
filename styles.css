@@ -178,6 +178,13 @@ main{
 .sponsors-img img{
     width: 165px;
 }
+/* footer section started here */
+.footer{
+    background: #fff4f7;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 300px;
+}
 
 
 
@@ -197,6 +204,7 @@ main{
         .features,
         .facts-card-container,
         .sponsors-img
+        
         {
             flex-direction: column;
         }
@@ -217,6 +225,9 @@ main{
      }
         .facts-card-container{
             gap: 20px;
+    }
+    .footer{
+        /* text-align: center; */
     }
 }
     /* tablet or medium devices */
